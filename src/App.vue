@@ -10,11 +10,11 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 float-end">
           <li class="nav-item">
-            <router-link class="nav-link pr-3" to="/">Users</router-link>
+            <router-link class="nav-link pr-3" to="/" active-class="active">Users</router-link>
           </li>
 
           <li class="nav-item">
-            <router-link class="nav-link pr-3" to="/users/create">Add User</router-link>
+            <router-link class="nav-link pr-3" to="/users/create" active-class="active">Add User</router-link>
           </li>
         </ul>
       </div>
